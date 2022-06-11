@@ -2,3 +2,5 @@ baseURL = 'https://foreboo.github.io/blog/'
 languageCode = 'en-us'
 title = 'Panda Blog'
 publishDir = 'docs'
+
+theme = "skyblue"

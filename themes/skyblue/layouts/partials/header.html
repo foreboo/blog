@@ -1,0 +1,57 @@
+<header>
+    <div id="header_phone">
+        <div class="flexCenter">
+            <img src="{{"images/bluesky.svg" | absURL }}" id="header_phone_img">
+            <img src="{{"images/menu.svg" | absURL }}" id="header_phone_menu_open">
+            <img src="{{"images/close.svg" | absURL }}" id="header_phone_menu_close">
+        </div>
+        <div id="header_phone_links">
+            <ul class="flexCenter">
+                <li><a>Home</a></li>
+                <li><a>Profile</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+        </div>
+        <div id="header_phone_menu">
+            <div id="header_phone_menu_title">MENU</div>
+            <ul>
+                <li><a>&middot; HOME</a></li>
+                <li><a>&middot; PROFILE</a></li>
+                <li><a>&middot; CONTACT</a></li>
+            </ul>
+            <div class="flexCenter" id="header_phone_menu_snslogos">
+                <img src="{{"images/Instagram.svg" | absURL }}" class="header_phone_snslogo">
+            <img src="{{"images/Github.svg" | absURL }}" class="header_phone_snslogo">
+            <img src="{{"images/email.svg" | absURL }}" class="header_phone_snslogo">
+            </div>
+        </div>
+    </div>
+    <div id="header_pc">
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>Profile</a></li>
+            <li><a>Contact</a></li>
+        </ul>
+        <div id="header_pc_snslogos">
+            <img src="{{"images/Instagram.svg" | absURL }}" class="header_pc_snslogo">
+            <img src="{{"images/Github.svg" | absURL }}" class="header_pc_snslogo">
+            <img src="{{"images/email.svg" | absURL }}" class="header_pc_snslogo">
+        </div>
+        <div>
+            <img src="{{"images/bluesky.svg" | absURL}}" id="header_pc_img">
+        </div>
+    </div>
+</header>
+<script>
+
+    document.getElementById("header_phone_menu_open").onclick = () => {
+        document.getElementById("header_phone_menu_open").style.display = "none";
+        document.getElementById("header_phone_menu_close").style.display = "block";
+        document.getElementById("header_phone_menu").style.display = "block";
+    };
+    document.getElementById("header_phone_menu_close").onclick = () => {
+        document.getElementById("header_phone_menu_close").style.display = "none";
+        document.getElementById("header_phone_menu_open").style.display = "block";
+        document.getElementById("header_phone_menu").style.display = "none";
+    }
+</script>
