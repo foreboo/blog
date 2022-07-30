@@ -18,19 +18,19 @@
 </div>
 
 
-<div>
+<div class="flexCenter">
     <div id="separater">おすすめ</div>
-    {{ range first 12 (after 1 (where .Site.Pages "Params.type" "blog")) }}
-    <div class="flexCenter">
+    {{ range first 12 (where .Site.Pages "Params.type" "blog") }}
+    <div>
         <a href="{{ .Permalink }}" class="portrait_articles_border">
         {{ $eyecatch_image := .Params.eyecatch }}
         {{ with $eyecatch_image }}
             <img src="{{ . | absURL }}" class="portrait_articles_eyecatch">
         {{ end }}
             <div class="portrait_articles_title">{{ .Title }}</div>
-        {{ end }}
         </a>
     </div>
+    {{ end }}
 </div>
 
 <style>
