@@ -1,0 +1,65 @@
+.pagination {
+    list-style: none;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    font-size: 1.5rem;
+}
+.pagination li {
+    margin: 0 0.6rem;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+}
+.pagination .active {
+    background-color: #fab96b;
+}
+.page-item:hover {
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+
+.portrait_articles_border {
+    margin: 0 1rem 2rem 1rem;
+    display: block;
+    width: 20rem;
+    height: 22.5rem;
+    box-shadow: 
+        -1px 2px 2px 0 rgba(172, 172, 172, 0.4),
+        1px 2px 2px 0 rgba(172, 172, 172, 0.4);
+}
+.portrait_articles_border:hover {
+    opacity: 0.8;
+}
+.portrait_articles_eyecatch {
+    display: block;
+    width: 20rem;
+    height: 11.25rem;
+    object-fit: cover;
+}
+.portrait_articles_title {
+    display: block;
+    padding: 1rem 1.2rem;
+    font-size: 1.4rem;
+    color: #4d5156;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+@media screen and (max-width: 480px) {
+    .portrait_articles_border {
+        width: calc(100% - 1rem);
+        height: auto;
+    }
+    .portrait_articles_eyecatch {
+        width: 100%;
+        height: 12rem;
+    }
+    .pagination {
+        font-size: 1rem;
+    }
+}

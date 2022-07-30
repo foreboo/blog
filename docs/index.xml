@@ -1,20 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Panda Blog</title>
+    <title>NiceDay</title>
     <link>https://foreboo.github.io/blog/</link>
-    <description>Recent content on Panda Blog</description>
+    <description>Recent content on NiceDay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jun 2022 22:12:48 +0900</lastBuildDate><atom:link href="https://foreboo.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Jul 2022 10:50:21 +0900</lastBuildDate><atom:link href="https://foreboo.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>https://foreboo.github.io/blog/posts/test/</link>
-      <pubDate>Thu, 09 Jun 2022 22:12:48 +0900</pubDate>
+      <title>パソコンいじってたらいつの間にか夜が明けていた話</title>
+      <link>https://foreboo.github.io/blog/posts/blog/pc/pc/</link>
+      <pubDate>Sat, 30 Jul 2022 10:50:21 +0900</pubDate>
       
-      <guid>https://foreboo.github.io/blog/posts/test/</guid>
-      <description>Hello World hello
-push ppp</description>
+      <guid>https://foreboo.github.io/blog/posts/blog/pc/pc/</guid>
+      <description>現代社会の復習 議会制民主主義 議会制民主主義とは、国民が選挙で選んだ代表が議会で話し合って政治を行う制度である
+いろいろな哲学者 民主主義とは 名前 功績 ニーチェ 神の死　善悪の彼岸 キルケゴール 死に至る病 レヴィン マージナルマン </description>
+    </item>
+    
+    <item>
+      <title>【哲学】私は一体誰なのか。</title>
+      <link>https://foreboo.github.io/blog/posts/blog/intro/intro/</link>
+      <pubDate>Sat, 30 Jul 2022 09:57:24 +0900</pubDate>
+      
+      <guid>https://foreboo.github.io/blog/posts/blog/intro/intro/</guid>
+      <description>こんにちは
+哲学者のジョンです。
+昨日の晩、私はふと考えていました。
+一体私は誰なのか。　どこから来たのか。　そして何をすべきなのか。</description>
+    </item>
+    
+    <item>
+      <title>ナミブ砂漠に行きたい</title>
+      <link>https://foreboo.github.io/blog/posts/blog/test/test/</link>
+      <pubDate>Sat, 30 Jul 2022 03:10:03 +0900</pubDate>
+      
+      <guid>https://foreboo.github.io/blog/posts/blog/test/test/</guid>
+      <description>ada</description>
+    </item>
+    
+    <item>
+      <title>【総距離10キロ!】海に行ったら帰りのバスを逃して徒歩で帰った話</title>
+      <link>https://foreboo.github.io/blog/posts/blog/hello/hello/</link>
+      <pubDate>Thu, 28 Jul 2022 02:55:24 +0900</pubDate>
+      
+      <guid>https://foreboo.github.io/blog/posts/blog/hello/hello/</guid>
+      <description>ノボログ ホームプログラミング 【CSS】超簡単！スクロールしても背景画像が固定されたままにする方法【プログラミング】 プログラミング Twitter Facebook はてブ Pocket LINE コピー 2021.06.11 2020.02.01 おはこんばんにちは！ノボルです。
+ポートフォリオサイトを作ってるんだけど、背景画像をスクロールしても固定したままにする方法ってないの？
+簡単な方法があるから解説するね！
+そこで今回は、スクロールしても背景画像が固定されたままにするCSSテクニックについて解説します！
+目次 デモサイト スクロールしても背景画像が固定されたままにする方法 HTML CSS 最後に デモサイト まずは、デモサイトをご覧ください。
+出典：coils (https://coliss.com/articles/build-websites/operation/css/css-alternate-fixed-scroll-backgrounds-by-codyhouse.html) ページをスクロールしても背景画像が固定されているのが分かると思います。
+では、さっそく実装する方法を解説していきます！
+スクロールしても背景画像が固定されたままにする方法 HTMLとCSSだけで実装できます。
+HTML HTMLのソースコードは以下の通りです。
+「背景画像を固定するセクション」と「スクロールするセクション」を交互に配置するところがポイントです。
+固定表示する要素には「.fixed-background」、スクロールする要素には「.scroll-background」というクラス名をつけました。もちろん、自分がわかりやすいように、クラス名を変えてもらっても構いません。
+CSS 続いて、CSSを見ていきましょう。
+.fixed-background { min-height: 100vh; background-attachment: fixed; background-size: cover; background-position: center; }
+.background-1 { background-image: url(&amp;hellip;); }
+.background-2 { background-image: url(&amp;hellip;); }
+CSSでは、「background-attachment: fixed;」を設定することで、背景画像を固定することができます。
+なので、上のソースコードでは、背景画像を固定するセクションに「background-attachment: fixed;」を指定しています。
+以上です！
+思ったより簡単なんだね！
+最後に 今回の記事では、スクロールしても背景画像が固定されたままにするCSSテクニックについて解説しました。
+背景画像を固定することで、よりデザイン性の高いWEB制作を行うことができます。
+この記事読んでくださっているあなたも、WEBサイトを作られる際は、ぜひ「background-attachment: fixed;」を活用してみてください！
+最後まで読んで頂き、ありがとうございました(o^^o)
+【CSS】letter-spacingで文字間を調整する方法とオススメの値【プログラミング】 おはこんばんにちは！ノボルです。CSSで文字間を調整するのってどうやるんだろ・・・。「letter-spacing」プロパティを使えば、簡単に文字間を調整できるよ！ブログやwebサイトなど、文章の多い媒体において、&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>自己紹介</title>
+      <link>https://foreboo.github.io/blog/posts/blog/profile/profile/</link>
+      <pubDate>Fri, 01 Jul 2022 11:57:19 +0900</pubDate>
+      
+      <guid>https://foreboo.github.io/blog/posts/blog/profile/profile/</guid>
+      <description> Profile</description>
     </item>
     
   </channel>

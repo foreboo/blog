@@ -1,6 +1,14 @@
 baseURL = 'https://foreboo.github.io/blog/'
 languageCode = 'en-us'
-title = 'Panda Blog'
+title = 'NiceDay'
 publishDir = 'docs'
 
 theme = "skyblue"
+
+[taxonomies]
+    category = "categories"
+    
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>other | NiceDays</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"/>
+    <link rel="stylesheet" href="https://foreboo.github.io/blog/css/style.css">
+    <link rel="stylesheet" href="https://foreboo.github.io/blog/css/article_card.css">
+    <link rel="stylesheet" href="https://foreboo.github.io/blog/css/markdown.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Volkhov:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Volkhov:ital,wght@0,700;1,400&family=Zen+Maru+Gothic:wght@400;700;900&display=swap" rel="stylesheet">
+</head><body>
+
+<header>
+    <div id="header_phone">
+        <div class="flexCenter" id="header_phone_banner">
+            <img src="https://foreboo.github.io/blog/images/bluesky.svg" id="header_phone_img">
+            <img src="https://foreboo.github.io/blog/images/menu.svg" id="header_phone_menu_open">
+            <img src="https://foreboo.github.io/blog/images/close.svg" id="header_phone_menu_close">
+        </div>
+        
+        <div id="header_phone_menu">
+            <div id="header_phone_menu_title">MENU</div>
+            <ul>
+                <li><a href="https://foreboo.github.io/blog/">&middot; HOME</a></li>
+                <li><a>&middot; PROFILE</a></li>
+                <li><a>&middot; CONTACT</a></li>
+            </ul>
+            <div class="flexCenter" id="header_phone_menu_snslogos">
+                <img src="https://foreboo.github.io/blog/images/Instagram.svg" class="header_phone_snslogo" draggable="false">
+                <img src="https://foreboo.github.io/blog/images/Github.svg" class="header_phone_snslogo" draggable="false">
+                <img src="https://foreboo.github.io/blog/images/email.svg" class="header_phone_snslogo" draggable="false">
+            </div>
+        </div>
+    </div>
+    <div id="header_pc">
+        <ul>
+            <li><a href="https://foreboo.github.io/blog/">Home</a></li>
+            <li><a href="https://foreboo.github.io/blog/">Profile</a></li>
+            <li><a>Contact</a></li>
+        </ul>
+        <div id="header_pc_snslogos">
+            <img src="https://foreboo.github.io/blog/images/Instagram.svg" class="header_pc_snslogo">
+            <img src="https://foreboo.github.io/blog/images/Github.svg" class="header_pc_snslogo">
+            <img src="https://foreboo.github.io/blog/images/email.svg" class="header_pc_snslogo">
+        </div>
+        <div id="header_pc_banner">
+            <img src="https://foreboo.github.io/blog/images/bluesky.svg" id="header_pc_img">
+        </div>
+    </div>
+</header>
+<script>
+
+    document.getElementById("header_phone_menu_open").onclick = () => {
+        document.getElementById("header_phone_menu_open").style.display = "none";
+        document.getElementById("header_phone_menu_close").style.display = "block";
+        document.getElementById("header_phone_menu").style.display = "block";
+    };
+    document.getElementById("header_phone_menu_close").onclick = () => {
+        document.getElementById("header_phone_menu_close").style.display = "none";
+        document.getElementById("header_phone_menu_open").style.display = "block";
+        document.getElementById("header_phone_menu").style.display = "none";
+    }
+</script><div id="content">
+
+<h1 id="list_page_title">other</h1>
+
+<div class="flexCenter">
+    <a href="/blog/posts/blog/test/test/" class="list_page_articles_border">
+    
+    
+        <img src="https://foreboo.github.io/blog/posts/blog/test/test.jpg" class="list_page_articles_eyecatch">
+    
+        <div class="list_page_articles_title">ナミブ砂漠に行きたい</div>
+    
+<div class="flexCenter">
+    <a href="/blog/posts/blog/profile/profile/" class="list_page_articles_border">
+    
+    
+        <img src="https://foreboo.github.io/blog/posts/blog/profile/icon.jpg" class="list_page_articles_eyecatch">
+    
+        <div class="list_page_articles_title">自己紹介</div>
+    
+    </a>
+</div>
+
+<style>
+    #list_page_title {
+        display: block;
+        font-size: 3.5rem;
+        font-family: 'Volkhov', serif;
+        margin: 3rem 30rem 4rem 30rem;
+        text-align: center;
+        border-bottom: solid 0.1rem #4d5156;
+    }
+    .list_page_articles_border {
+        margin: 0 1rem 2rem 1rem;
+        display: block;
+        width: 20rem;
+        height: 22.5rem;
+        box-shadow: 
+            -1px 2px 2px 0 rgba(172, 172, 172, 0.4),
+            1px 2px 2px 0 rgba(172, 172, 172, 0.4);
+    }
+    .list_page_articles_border:hover {
+        opacity: 0.8;
+    }
+    .list_page_articles_eyecatch {
+        display: block;
+        width: 20rem;
+        height: 11.25rem;
+        object-fit: cover;
+    }
+    .list_page_articles_title {
+        display: block;
+        padding: 1rem 1.2rem;
+        font-size: 1.4rem;
+        color: #4d5156;
+        font-weight: 400;
+        line-height: 1.4em;
+    }
+</style>
+
+
+        </div><footer>
+    <div class="flexCenter" id="footer_copyright">
+        &copy; 2022 NiceDays
+    </div>
+</footer></body>
+</html>

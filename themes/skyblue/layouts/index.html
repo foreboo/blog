@@ -1,0 +1,73 @@
+{{ define "main" }}
+
+<div id="content_body">
+    <h2 class="top_page_title">
+        PICK UP
+        <p>おすすめ</p>
+    </h2>
+    <div class="flexCenter">
+        {{ range (.Paginator 3).Pages}}
+        <a href="{{ .Permalink }}" class="portrait_articles_border">
+        {{ $eyecatch_image := .Params.eyecatch }}
+        {{ with $eyecatch_image }}
+            <img src="{{ . | absURL }}" class="portrait_articles_eyecatch">
+        {{ end }}
+            <div class="portrait_articles_title">{{ .Title }}</div>
+        {{ end }}
+        </a>
+    </div>
+    {{ template "_internal/pagination.html" . }}
+
+
+    <h2 class="top_page_title">
+        Categories
+        <p>カテゴリ</p>
+    </h2>
+    <div class="flexCenter">
+        {{ range .Site.Taxonomies.categories.ByCount}}
+        <a href="{{ "categories/" | relURL }}{{ .Name | urlize}}" class="flexCenter top_page_categories_border" style="background-image: url('posts/images/categories_{{ .Name }}.jpg')">
+            <p>{{ .Name  }}</p>
+        </a>
+        {{ end }}
+    </div>
+</div>
+
+<style>
+    .top_page_title {
+        font-family: 'Volkhov', serif;
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+        margin: 7rem 0 5rem 0;
+        color: #69a2a8;
+        border: none;
+    }
+    .top_page_title p {
+        font-family: sans-serif;
+        font-size: 1.7rem;
+        margin-top: 1rem;
+        color: #4d5156;
+    }
+    
+    .top_page_categories_border {
+        margin: 0 1rem 2rem 1rem;
+        width: 20rem;
+        height: 22.5rem;
+        box-shadow: 
+            -1px 2px 2px 0 rgba(172, 172, 172, 0.4),
+            1px 2px 2px 0 rgba(172, 172, 172, 0.4);
+        font-size: 5rem;
+        text-align: center;
+        background-size: cover;
+        background-clip: border-box;
+    }
+    .top_page_categories_border p {
+        display: block;
+        font-weight: 700;
+        color: white;
+        padding-bottom: 2rem;
+        text-shadow: 0 10px 10px #353535;
+    }
+</style>
+
+{{ end }}

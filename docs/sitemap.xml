@@ -2,17 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://foreboo.github.io/blog/categories/</loc>
+    <lastmod>2022-07-30T10:50:21+09:00</lastmod>
+  </url><url>
     <loc>https://foreboo.github.io/blog/</loc>
-    <lastmod>2022-06-09T22:12:48+09:00</lastmod>
+    <lastmod>2022-07-30T10:50:21+09:00</lastmod>
+  </url><url>
+    <loc>https://foreboo.github.io/blog/categories/pc/</loc>
+    <lastmod>2022-07-30T10:50:21+09:00</lastmod>
   </url><url>
     <loc>https://foreboo.github.io/blog/posts/</loc>
-    <lastmod>2022-06-09T22:12:48+09:00</lastmod>
+    <lastmod>2022-07-30T10:50:21+09:00</lastmod>
   </url><url>
-    <loc>https://foreboo.github.io/blog/posts/test/</loc>
-    <lastmod>2022-06-09T22:12:48+09:00</lastmod>
+    <loc>https://foreboo.github.io/blog/posts/blog/pc/pc/</loc>
+    <lastmod>2022-07-30T10:50:21+09:00</lastmod>
   </url><url>
-    <loc>https://foreboo.github.io/blog/categories/</loc>
+    <loc>https://foreboo.github.io/blog/posts/blog/intro/intro/</loc>
+    <lastmod>2022-07-30T09:57:24+09:00</lastmod>
   </url><url>
-    <loc>https://foreboo.github.io/blog/tags/</loc>
+    <loc>https://foreboo.github.io/blog/categories/%E6%97%85/</loc>
+    <lastmod>2022-07-30T09:57:24+09:00</lastmod>
+  </url><url>
+    <loc>https://foreboo.github.io/blog/categories/other/</loc>
+    <lastmod>2022-07-30T03:10:03+09:00</lastmod>
+  </url><url>
+    <loc>https://foreboo.github.io/blog/posts/blog/test/test/</loc>
+    <lastmod>2022-07-30T03:10:03+09:00</lastmod>
+  </url><url>
+    <loc>https://foreboo.github.io/blog/posts/blog/hello/hello/</loc>
+    <lastmod>2022-07-28T02:55:24+09:00</lastmod>
+  </url><url>
+    <loc>https://foreboo.github.io/blog/categories/%E9%87%A3%E3%82%8A/</loc>
+    <lastmod>2022-07-28T02:55:24+09:00</lastmod>
+  </url><url>
+    <loc>https://foreboo.github.io/blog/posts/blog/profile/profile/</loc>
+    <lastmod>2022-07-01T11:57:19+09:00</lastmod>
   </url>
 </urlset>

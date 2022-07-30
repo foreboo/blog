@@ -1,10 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Panda Blog</title>
+    <title>Categories on NiceDay</title>
     <link>https://foreboo.github.io/blog/categories/</link>
-    <description>Recent content in Categories on Panda Blog</description>
+    <description>Recent content in Categories on NiceDay</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://foreboo.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Jul 2022 10:50:21 +0900</lastBuildDate><atom:link href="https://foreboo.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PC</title>
+      <link>https://foreboo.github.io/blog/categories/pc/</link>
+      <pubDate>Sat, 30 Jul 2022 10:50:21 +0900</pubDate>
+      
+      <guid>https://foreboo.github.io/blog/categories/pc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>旅</title>
+      <link>https://foreboo.github.io/blog/categories/%E6%97%85/</link>
+      <pubDate>Sat, 30 Jul 2022 09:57:24 +0900</pubDate>
+      
+      <guid>https://foreboo.github.io/blog/categories/%E6%97%85/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>other</title>
+      <link>https://foreboo.github.io/blog/categories/other/</link>
+      <pubDate>Sat, 30 Jul 2022 03:10:03 +0900</pubDate>
+      
+      <guid>https://foreboo.github.io/blog/categories/other/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>釣り</title>
+      <link>https://foreboo.github.io/blog/categories/%E9%87%A3%E3%82%8A/</link>
+      <pubDate>Thu, 28 Jul 2022 02:55:24 +0900</pubDate>
+      
+      <guid>https://foreboo.github.io/blog/categories/%E9%87%A3%E3%82%8A/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

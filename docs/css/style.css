@@ -2,7 +2,7 @@ body {
     background-color: #ffffff;
     font-size: 100%;
     color: #333333;
-    font-family: sans-serif
+    font-family: 'Zen Maru gothic', sans-serif;
 }
 
 .flexCenter {
@@ -19,7 +19,6 @@ body {
 #header_pc {
     display: none;
     width: 100%;
-    padding: 0.8rem;
     text-align: center;
     user-select: none;
 }
@@ -27,6 +26,8 @@ body {
     display: inline-block;
     text-align: center;
     color: #494a41;
+    background-color: #FBFFFF;
+    padding: 0 0.8rem;
 }
 #header_pc ul li {
     list-style: none;
@@ -44,6 +45,7 @@ body {
     cursor: pointer;
 }
 #header_pc_snslogos {
+    padding-top: 0.8rem;
     display: inline-block;
 }
 .header_pc_snslogo {
@@ -52,9 +54,13 @@ body {
     box-sizing: content-box;
     cursor: pointer;
 }
+#header_pc_banner {
+    background-image: url("/blog/images/sketch.jpg");
+    background-size: cover;
+}
 #header_pc_img {
-    width: 60%;
-    margin: 4rem auto;
+    width: 35%;
+    margin: 4rem auto 2rem auto;
     height: auto;
 }
 #header_phone {
@@ -76,14 +82,15 @@ body {
     display: none;
     z-index: 2;
 }
+/*
 #header_phone_links {
-    margin-top: 0.2rem;
     padding: 0.6rem;
     color: #ffffff;
     font-weight: bolder;
-    background-color: #b3924b;
+    background-color: #879858;
     font-size: 1rem;
 }
+*/
 #header_phone_menu {
     position: fixed;
     top: 0;
@@ -94,6 +101,10 @@ body {
     opacity: 0.94;
     z-index: 1;
     display: none;
+}
+#header_phone_banner {
+    background-image: url("/blog/images/sketch.jpg");
+    background-size: cover;   
 }
 #header_phone_menu_title {
     font-size: 2rem;
@@ -121,6 +132,17 @@ body {
     width: 2rem;
     margin: 0.8rem;
 }
+
+footer {
+    margin: 3rem 0 1rem 0;
+}
+#footer_copyright {
+    color: #7B7B7B;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+
 
 /* #### Landscape #### */
 @media screen and (min-width: 480px) {
