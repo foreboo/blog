@@ -1,16 +1,19 @@
 {{ define "main" }}
 
 <h1 id="list_page_title">{{ .Title }}</h1>
-{{ range .Pages.ByDate.Reverse }}
+
 <div class="flexCenter">
-    <a href="{{ .RelPermalink }}" class="list_page_articles_border">
-    {{ $eyecatch_image := .Params.eyecatch }}
-    {{ with $eyecatch_image }}
-        <img src="{{ . | absURL }}" class="list_page_articles_eyecatch">
-    {{ end }}
-        <div class="list_page_articles_title">{{ .Title }}</div>
-    {{ end }}
-    </a>
+{{ range .Pages.ByDate.Reverse }}
+    <div>
+        <a href="{{ .RelPermalink }}" class="list_page_articles_border">
+        {{ $eyecatch_image := .Params.eyecatch }}
+        {{ with $eyecatch_image }}
+            <img src="{{ . | absURL }}" class="list_page_articles_eyecatch">
+        {{ end }}
+            <div class="list_page_articles_title">{{ .Title }}</div>
+        </a>
+    </div>
+{{ end }}
 </div>
 
 <style>

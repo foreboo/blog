@@ -25,7 +25,7 @@
     </h2>
     <div class="flexCenter">
         {{ range .Site.Taxonomies.categories.ByCount}}
-        <a href="{{ "categories/" | relURL }}{{ .Name | urlize}}" class="flexCenter top_page_categories_border" style="background-image: url('posts/images/categories_{{ .Name }}.jpg')">
+        <a href="{{ "categories/" | relURL }}{{ .Name | urlize}}" class="flexCenter top_page_categories_border" style="background-image: url('/blog/posts/images/categories_{{ .Name }}.jpg')">
             <p>{{ .Name  }}</p>
         </a>
         {{ end }}
