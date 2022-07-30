@@ -6,14 +6,27 @@
     <description>Recent content in other on NiceDay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Jul 2022 03:10:03 +0900</lastBuildDate><atom:link href="https://foreboo.github.io/blog/categories/other/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Jul 2022 23:17:40 +0900</lastBuildDate><atom:link href="https://foreboo.github.io/blog/categories/other/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ナミブ砂漠に行きたい</title>
-      <link>https://foreboo.github.io/blog/posts/blog/test/test/</link>
-      <pubDate>Sat, 30 Jul 2022 03:10:03 +0900</pubDate>
+      <title>ブログを作ったもののネタが思い浮かばない</title>
+      <link>https://foreboo.github.io/blog/posts/blog/20220730_02/20220730_02/</link>
+      <pubDate>Sat, 30 Jul 2022 23:17:40 +0900</pubDate>
       
-      <guid>https://foreboo.github.io/blog/posts/blog/test/test/</guid>
-      <description>ada</description>
+      <guid>https://foreboo.github.io/blog/posts/blog/20220730_02/20220730_02/</guid>
+      <description>ブログを作ったもののネタが思い浮かばない 何も書くことが思い浮かびません。
+そしてとても眠い。
+今日は歯磨きして寝る。</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://foreboo.github.io/blog/posts/blog/contact/contact/</link>
+      <pubDate>Fri, 01 Jul 2022 20:17:57 +0900</pubDate>
+      
+      <guid>https://foreboo.github.io/blog/posts/blog/contact/contact/</guid>
+      <description>Contact E-mail foreboo9@gmail.com
+Instagram nicedays_blog
+GitHub GitHub-foreboo</description>
     </item>
     
     <item>
@@ -22,7 +35,12 @@
       <pubDate>Fri, 01 Jul 2022 11:57:19 +0900</pubDate>
       
       <guid>https://foreboo.github.io/blog/posts/blog/profile/profile/</guid>
-      <description> Profile</description>
+      <description>自己紹介 taise
+私について 2022年現在16歳の学生です。
+釣りと自転車旅が好きで、週末はよくサイクリングに行っています。
+将来の夢はプログラマーです。
+このブログでは、日々の生活で感じたことや、旅の記録などを書き留めて行きます。
+よろしくお願いします。</description>
     </item>
     
   </channel>

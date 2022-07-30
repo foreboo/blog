@@ -20,7 +20,7 @@
 <header>
     <div id="header_phone">
         <div class="flexCenter" id="header_phone_banner">
-            <img src="https://foreboo.github.io/blog/images/bluesky.svg" id="header_phone_img">
+            <img src="https://foreboo.github.io/blog/images/bluesky.svg" id="header_phone_img" onclick="location.href='https:\/\/foreboo.github.io\/blog\/'">
             <img src="https://foreboo.github.io/blog/images/menu.svg" id="header_phone_menu_open">
             <img src="https://foreboo.github.io/blog/images/close.svg" id="header_phone_menu_close">
         </div>
@@ -29,29 +29,29 @@
             <div id="header_phone_menu_title">MENU</div>
             <ul>
                 <li><a href="https://foreboo.github.io/blog/">&middot; HOME</a></li>
-                <li><a>&middot; PROFILE</a></li>
-                <li><a>&middot; CONTACT</a></li>
+                <li><a href="https://foreboo.github.io/blog/posts/blog/profile/profile/">&middot; PROFILE</a></li>
+                <li><a href="https://foreboo.github.io/blog/posts/blog/contact/contact/">&middot; CONTACT</a></li>
             </ul>
             <div class="flexCenter" id="header_phone_menu_snslogos">
-                <img src="https://foreboo.github.io/blog/images/Instagram.svg" class="header_phone_snslogo" draggable="false">
-                <img src="https://foreboo.github.io/blog/images/Github.svg" class="header_phone_snslogo" draggable="false">
-                <img src="https://foreboo.github.io/blog/images/email.svg" class="header_phone_snslogo" draggable="false">
+                <img src="https://foreboo.github.io/blog/images/Instagram.svg" class="header_phone_snslogo" draggable="false" onclick="location.href='https://www.instagram.com/nicedays_blog/'">
+                <img src="https://foreboo.github.io/blog/images/Github.svg" class="header_phone_snslogo" draggable="false" onclick="location.href='https://github.com/foreboo'">
+                <img src="https://foreboo.github.io/blog/images/email.svg" class="header_phone_snslogo" draggable="false" onclick="location.href='mailto:foreboo9@gmail.com'">
             </div>
         </div>
     </div>
     <div id="header_pc">
         <ul>
             <li><a href="https://foreboo.github.io/blog/">Home</a></li>
-            <li><a href="https://foreboo.github.io/blog/">Profile</a></li>
-            <li><a>Contact</a></li>
+            <li><a href="https://foreboo.github.io/blog/posts/blog/profile/profile/">Profile</a></li>
+            <li><a href="https://foreboo.github.io/blog/posts/blog/contact/contact/">Contact</a></li>
         </ul>
         <div id="header_pc_snslogos">
-            <img src="https://foreboo.github.io/blog/images/Instagram.svg" class="header_pc_snslogo">
-            <img src="https://foreboo.github.io/blog/images/Github.svg" class="header_pc_snslogo">
-            <img src="https://foreboo.github.io/blog/images/email.svg" class="header_pc_snslogo">
+            <img src="https://foreboo.github.io/blog/images/Instagram.svg" class="header_pc_snslogo" onclick="location.href='https://www.instagram.com/nicedays_blog/'">
+            <img src="https://foreboo.github.io/blog/images/Github.svg" class="header_pc_snslogo" onclick="location.href='https://github.com/foreboo'">
+            <img src="https://foreboo.github.io/blog/images/email.svg" class="header_pc_snslogo" onclick="location.href='mailto:foreboo9@gmail.com'">
         </div>
         <div id="header_pc_banner">
-            <img src="https://foreboo.github.io/blog/images/bluesky.svg" id="header_pc_img">
+            <img src="https://foreboo.github.io/blog/images/bluesky.svg" id="header_pc_img" onclick="location.href='https:\/\/foreboo.github.io\/blog\/'">
         </div>
     </div>
 </header>
@@ -75,13 +75,6 @@
         <p>おすすめ</p>
     </h2>
     <div class="flexCenter">
-        
-        <a href="https://foreboo.github.io/blog/posts/blog/hello/hello/" class="portrait_articles_border">
-        
-        
-            <img src="https://foreboo.github.io/blog/posts/blog/hello/hello.jpg" class="portrait_articles_eyecatch">
-        
-            <div class="portrait_articles_title">【総距離10キロ!】海に行ったら帰りのバスを逃して徒歩で帰った話</div>
         
         <a href="https://foreboo.github.io/blog/posts/blog/profile/profile/" class="portrait_articles_border">
         
@@ -129,14 +122,6 @@
             <p>pc</p>
         </a>
         
-        <a href="/blog/categories/%E6%97%85" class="flexCenter top_page_categories_border" style="background-image: url('posts/images/categories_%e6%97%85.jpg')">
-            <p>旅</p>
-        </a>
-        
-        <a href="/blog/categories/%E9%87%A3%E3%82%8A" class="flexCenter top_page_categories_border" style="background-image: url('posts/images/categories_%e9%87%a3%e3%82%8a.jpg')">
-            <p>釣り</p>
-        </a>
-        
     </div>
 </div>
 
@@ -164,7 +149,6 @@
         box-shadow: 
             -1px 2px 2px 0 rgba(172, 172, 172, 0.4),
             1px 2px 2px 0 rgba(172, 172, 172, 0.4);
-        font-size: 5rem;
         text-align: center;
         background-size: cover;
         background-clip: border-box;
@@ -175,12 +159,14 @@
         color: white;
         padding-bottom: 2rem;
         text-shadow: 0 10px 10px #353535;
+        font-size: 5rem;
     }
 </style>
 
 
         </div><footer>
-    <div class="flexCenter" id="footer_copyright">
+    <br>
+    <div id="footer_copyright">
         &copy; 2022 NiceDays
     </div>
 </footer></body>

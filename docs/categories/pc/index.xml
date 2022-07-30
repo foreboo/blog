@@ -6,15 +6,14 @@
     <description>Recent content in PC on NiceDay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Jul 2022 10:50:21 +0900</lastBuildDate><atom:link href="https://foreboo.github.io/blog/categories/pc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Jul 2022 22:35:08 +0900</lastBuildDate><atom:link href="https://foreboo.github.io/blog/categories/pc/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>パソコンいじってたらいつの間にか夜が明けていた話</title>
-      <link>https://foreboo.github.io/blog/posts/blog/pc/pc/</link>
-      <pubDate>Sat, 30 Jul 2022 10:50:21 +0900</pubDate>
+      <title>【メモ】Hugoのテーマを自作する時につまずいたこと</title>
+      <link>https://foreboo.github.io/blog/posts/blog/20220730_01/20220730_01/</link>
+      <pubDate>Sat, 30 Jul 2022 22:35:08 +0900</pubDate>
       
-      <guid>https://foreboo.github.io/blog/posts/blog/pc/pc/</guid>
-      <description>現代社会の復習 議会制民主主義 議会制民主主義とは、国民が選挙で選んだ代表が議会で話し合って政治を行う制度である
-いろいろな哲学者 民主主義とは 名前 功績 ニーチェ 神の死　善悪の彼岸 キルケゴール 死に至る病 レヴィン マージナルマン </description>
+      <guid>https://foreboo.github.io/blog/posts/blog/20220730_01/20220730_01/</guid>
+      <description>【メモ】Hugoのテーマを自作する時につまずいたこと つまずいたところ paginatorが index.html と list.html でしか使えないこと </description>
     </item>
     
   </channel>

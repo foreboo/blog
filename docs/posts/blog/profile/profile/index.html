@@ -19,7 +19,7 @@
 <header>
     <div id="header_phone">
         <div class="flexCenter" id="header_phone_banner">
-            <img src="https://foreboo.github.io/blog/images/bluesky.svg" id="header_phone_img">
+            <img src="https://foreboo.github.io/blog/images/bluesky.svg" id="header_phone_img" onclick="location.href='https:\/\/foreboo.github.io\/blog\/'">
             <img src="https://foreboo.github.io/blog/images/menu.svg" id="header_phone_menu_open">
             <img src="https://foreboo.github.io/blog/images/close.svg" id="header_phone_menu_close">
         </div>
@@ -28,29 +28,29 @@
             <div id="header_phone_menu_title">MENU</div>
             <ul>
                 <li><a href="https://foreboo.github.io/blog/">&middot; HOME</a></li>
-                <li><a>&middot; PROFILE</a></li>
-                <li><a>&middot; CONTACT</a></li>
+                <li><a href="https://foreboo.github.io/blog/posts/blog/profile/profile/">&middot; PROFILE</a></li>
+                <li><a href="https://foreboo.github.io/blog/posts/blog/contact/contact/">&middot; CONTACT</a></li>
             </ul>
             <div class="flexCenter" id="header_phone_menu_snslogos">
-                <img src="https://foreboo.github.io/blog/images/Instagram.svg" class="header_phone_snslogo" draggable="false">
-                <img src="https://foreboo.github.io/blog/images/Github.svg" class="header_phone_snslogo" draggable="false">
-                <img src="https://foreboo.github.io/blog/images/email.svg" class="header_phone_snslogo" draggable="false">
+                <img src="https://foreboo.github.io/blog/images/Instagram.svg" class="header_phone_snslogo" draggable="false" onclick="location.href='https://www.instagram.com/nicedays_blog/'">
+                <img src="https://foreboo.github.io/blog/images/Github.svg" class="header_phone_snslogo" draggable="false" onclick="location.href='https://github.com/foreboo'">
+                <img src="https://foreboo.github.io/blog/images/email.svg" class="header_phone_snslogo" draggable="false" onclick="location.href='mailto:foreboo9@gmail.com'">
             </div>
         </div>
     </div>
     <div id="header_pc">
         <ul>
             <li><a href="https://foreboo.github.io/blog/">Home</a></li>
-            <li><a href="https://foreboo.github.io/blog/">Profile</a></li>
-            <li><a>Contact</a></li>
+            <li><a href="https://foreboo.github.io/blog/posts/blog/profile/profile/">Profile</a></li>
+            <li><a href="https://foreboo.github.io/blog/posts/blog/contact/contact/">Contact</a></li>
         </ul>
         <div id="header_pc_snslogos">
-            <img src="https://foreboo.github.io/blog/images/Instagram.svg" class="header_pc_snslogo">
-            <img src="https://foreboo.github.io/blog/images/Github.svg" class="header_pc_snslogo">
-            <img src="https://foreboo.github.io/blog/images/email.svg" class="header_pc_snslogo">
+            <img src="https://foreboo.github.io/blog/images/Instagram.svg" class="header_pc_snslogo" onclick="location.href='https://www.instagram.com/nicedays_blog/'">
+            <img src="https://foreboo.github.io/blog/images/Github.svg" class="header_pc_snslogo" onclick="location.href='https://github.com/foreboo'">
+            <img src="https://foreboo.github.io/blog/images/email.svg" class="header_pc_snslogo" onclick="location.href='mailto:foreboo9@gmail.com'">
         </div>
         <div id="header_pc_banner">
-            <img src="https://foreboo.github.io/blog/images/bluesky.svg" id="header_pc_img">
+            <img src="https://foreboo.github.io/blog/images/bluesky.svg" id="header_pc_img" onclick="location.href='https:\/\/foreboo.github.io\/blog\/'">
         </div>
     </div>
 </header>
@@ -70,8 +70,32 @@
 
 <div id="article">
     <article>
-        <img src="../icon.jpg" alt="icon" style="width: 50%; max-width: 20rem; border-radius: 50%; margin: 3rem auto; display: block;">
-<h1 style="font-size: 3.2rem; text-align: center;">Profile</h1>
+        <h1 id="自己紹介">自己紹介</h1>
+<p><br><br></p>
+<img id="profile_icon" src="../icon.jpg" alt="icon" style="width: 14rem; height: 14rem; border-radius: 10%; object-fit: cover;">
+<p id="profile_name">taise</p>
+<style>
+    #profile_icon {
+        display: block;
+        margin: auto;
+    }
+    #profile_name {
+        text-align: center;
+        font-size: 2rem;
+    }
+    @media screen and (min-width: 1024px) {
+        #profile_icon, #profile_name {
+            display: none;
+        }
+    }
+</style>
+<h2 id="私について">私について</h2>
+<p>2022年現在16歳の学生です。</p>
+<p>釣りと自転車旅が好きで、週末はよくサイクリングに行っています。</p>
+<p>将来の夢はプログラマーです。</p>
+<p>このブログでは、日々の生活で感じたことや、旅の記録などを書き留めて行きます。</p>
+<p>よろしくお願いします。</p>
+
         
     </article>
     
@@ -86,7 +110,23 @@
     </div>
 </div>
 
+
+<div>
+    <div id="separater">おすすめ</div>
+    
+        </a>
+    </div>
+</div>
+
 <style>
+    #separater {
+        text-align: center;
+        font-size: 2rem;
+        margin: 5rem auto 4rem auto;
+        padding: 4.2px;
+        border-bottom: 1px solid black;
+        width: calc(100% - 3rem);
+    }
     #article {
         display: flex;
     }
@@ -138,7 +178,8 @@
 
 
         </div><footer>
-    <div class="flexCenter" id="footer_copyright">
+    <br>
+    <div id="footer_copyright">
         &copy; 2022 NiceDays
     </div>
 </footer></body>
